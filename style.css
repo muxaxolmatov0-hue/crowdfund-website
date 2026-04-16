@@ -1,0 +1,338 @@
+/* commissioner-100 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Commissioner";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/commissioner-v24-latin-100.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* commissioner-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Commissioner";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/commissioner-v24-latin-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* commissioner-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Commissioner";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/commissioner-v24-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* commissioner-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Commissioner";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/commissioner-v24-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* commissioner-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Commissioner";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/commissioner-v24-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* commissioner-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Commissioner";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/commissioner-v24-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* commissioner-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Commissioner";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/commissioner-v24-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* commissioner-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Commissioner";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/commissioner-v24-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* commissioner-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Commissioner";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/commissioner-v24-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Commissioner";
+}
+
+header {
+  width: 100%;
+  height: 400px;
+  background-image: url(./imgs/hedr-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.mini-container {
+  width: 100%;
+  max-width: 730px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px 130px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 100%;
+}
+
+nav a:hover {
+  border-bottom: 1px solid;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 700px;
+  margin: 200px auto;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding-bottom: 32px;
+}
+
+.icon-img img {
+  margin-left: 45%;
+  margin-top: -30px;
+}
+.text h2 {
+  color: #000000;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 100%;
+  text-align: center;
+  margin-top: 28px;
+}
+.text p {
+  color: #7a7a7a;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 256px;
+  margin-top: 40px;
+  margin-left: 6%;
+}
+
+.btn button {
+  padding: 18px 28px;
+  border: none;
+  border-radius: 33px;
+  background-color: #3cb3ab;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 0.2s linear;
+}
+
+.btn button:hover {
+  background-color: #147a73;
+  transition: all 0.2s linear;
+}
+
+.box {
+  margin-top: 200px;
+  background-color: #ffffff;
+  width: 100%;
+  /* max-width: 730px; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 50px;
+}
+
+.string h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  color: #000000;
+}
+
+.string p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  color: #7a7a7a;
+  margin-top: 10px;
+}
+
+.line {
+  border: 3px solid #3cb3ab;
+  margin-top: 38px;
+  border-radius: 9px;
+  transition: all 0.2s linear;
+  width: 100%;
+  height: 15px;
+}
+
+.line:hover {
+  background: linear-gradient(#3cb3ab 0 0) 0/0% no-repeat #ffffff;
+  animation: l1 10s infinite linear;
+}
+@keyframes l1 {
+  100% {
+    background-size: 100%;
+  }
+}
+
+.all-string {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.more-text {
+  background-color: #ffffff;
+  margin-top: 50px;
+  padding: 0px 40px;
+}
+
+.more-text h2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+  line-height: 100%;
+  /* margin-top: 48px; */
+}
+
+.more-text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #7a7a7a;
+  margin-top: 20px;
+  max-width: 634px;
+}
+
+.card-logo {
+  /* margin-top: 40px; */
+  background-color: #ffffff;
+  box-shadow:
+    rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 20px 40px;
+  border-radius: 12px;
+  max-width: 634px;
+  margin: 40px auto;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task h2 {
+  color: #000000;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+}
+.task span {
+  color: #3cb3ab;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  margin-right: 34px;
+}
+
+.card-logo p {
+  color: #7a7a7a;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 24px;
+  max-width: 570px;
+}
+.left-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.left-btn span {
+  color: #000000;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+}
+
+.left-btn button {
+  background-color: #3cb3ab;
+  padding: 10px 20px;
+  border-radius: 33.5px;
+  border: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  margin-right: 34px;
+  transition: all 0.3s linear;
+}
+
+.main-section {
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  padding: 10px 20px;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+.end-btn button {
+  background-color: #7d7b7b;
+  color: #ffffff;
+}
+
+.left-btn button:hover {
+  background-color: #147a73;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
